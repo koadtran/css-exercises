@@ -1,1 +1,15 @@
-/* Add CSS Styling */
+.odd-number {
+    background-color: salmon;
+    font-family: "Vernada", "DejaVu Sans", sans-serif;
+}
+#second {
+    color: blue;
+    font-size: 36px;
+}
+#third, #fourth {
+    font-size: 24px;
+}
+#fourth {
+    background-color: lightgreen;
+    font-weight: bold;
+}
