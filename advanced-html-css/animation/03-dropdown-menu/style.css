@@ -12,12 +12,24 @@
   background-color: rgb(163, 162, 162);
 }
 
+@keyframes drop-down {
+  from {
+    transform: scaleY(0);
+  } 60% {
+    transform: scaleY(1.1);
+  } to {
+    transform: scaleY(1);
+  }
+}
+
 .dropdown-menu {
+  transform-origin: top;
   list-style: none;
   padding: 0;
   margin: 0;
   background-color: rgb(99, 97, 97);
 
+  animation: 0.8s drop-down;
   display: none;
 }
 
